@@ -33,8 +33,10 @@ Typically, the script tags are placed at the end of the body tag.
 <p>...</p>
 ```
 
-* defer tells the browser to continue processing the HTML and load the script in the background (non-blocking)
+* ``defer`` tells the browser to continue processing the HTML and load the script in the background (non-blocking)
+* ``defer``marked scripts will be executed in their defined order
 * The event DOMContentLoaded is only fired after all defer scripts.
+* doesn't block the parsing of the apge
 
 ### Use Cases
 
@@ -52,8 +54,9 @@ Typically, the script tags are placed at the end of the body tag.
 ```
 
 async marks the loading of the script as completely independent, i.e.
-* it does not wait for the scripts marked async
+* it does not wait for the scripts marked async (random order)
 * ``DOMContentLoaded`` and async scripts do not wait for each other
+* blocks the parsing of the page
 
 ### Use Cases
 
