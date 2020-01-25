@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            document.addEventListener('DOMContentLoaded', () =>{console.log('DOMContentLoaded');}); 
+            window.addEventListener('load', () => {console.log('load');});
+        </script>
+        <script src="./asyncscript.js" async></script>
+        <script src="./normalscript.js"></script>
+        <script src="./deferscript.js" defer></script>
+        <script src="./normalscript2.js"></script>
+        <p>hello from dom</p>
+    </body>
+</html>
