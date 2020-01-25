@@ -47,7 +47,7 @@ Typically, the script tags are placed at the end of the body tag.
 ```html
 <p>...</p>
 <script async src="script2.js"></script>
-<!-- wird sofort angezeigt -->
+<!-- is displayed immediately -->
 <p>...</p>
 ```
 
