@@ -1,6 +1,6 @@
 # JavaScript Loading Demo
 
-This sample code shows the difference between normal, ``defer`` and ``async`` script loading.
+This sample code shows the difference between normal, ``defer`` and ``async`` script loading. ``defer``and ``async`` are attributes of the ``script`` tag.
 
 
 ## Default Script loading
