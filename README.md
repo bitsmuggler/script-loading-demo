@@ -60,6 +60,7 @@ async marks the loading of the script as completely independent, i.e.
 
 ### Use Cases
 
+* External (independent) Script
 * "Self-Contained" script, i.e. no dependencies to other files or to the parsed DOM
 * Typically 3rd party integration such as Analytics
 
